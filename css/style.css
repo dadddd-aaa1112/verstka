@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Oswald:wght@400&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.container {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.header {
+	background: url('/assets/img/header.jpg') no-repeat center top;
+}
+
+.menu {
+	display: flex;
+	margin-top: 12px;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 14px;
+	font-family: 'Oswald';
+	letter-spacing: 0.04em;
+}
+
+.logo {
+	display: flex;
+	margin-right: 70px;
+	margin-left: 165px;
+}
+
+.logo li a {
+	font-size: 50px;
+	text-decoration: none;
+}
+
+.logo__text_left {
+	margin-left: -20px;
+	margin-top: 14px;
+}
+
+.menu li a {
+	margin-right: 50px;
+}
+
+.nav {
+	display: flex;
+	align-items: flex-start;
+	padding-top: 7px;
+}
+
+ul li {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.search-icon {
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.header__text {
+	display: flex;
+	flex-direction: column;
+	margin-top: -50px;
+}
+
+.header__text p {
+	font-size: 200px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	font-family: 'Cormorant';
+}
+
+.header__text_flower {
+	line-height: 70px;
+	margin-left: 228px;
+}
+
+.header__text_lover {
+	margin-left: 326px;
+}
+
+.description {
+	margin-top: 83px;
+	margin-left: 495px;
+	font-family: 'Oswald';
+	font-size: 20px;
+	letter-spacing: 0.02em;
+}
+
+.show_catalog,
+.show_catalog:focus {
+	background: #43ffd2;
+	width: 220px;
+	height: 50px;
+	margin-left: 610px;
+	margin-top: -10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out 0.2s;
+}
+
+.show_catalog:hover,
+.show_catalog:active {
+	background: #7d2253;
+	color: white;
+}
+
+.show_catalog p {
+	color: #000;
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.contacts {
+	align-self: flex-end;
+	text-align: right;
+	margin-left: 95px;
+}
+
+.contacts_green {
+	margin-top: 12px;
+	color: #43ffd2;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-family: 'Oswald';
+}
+
+.contacts_adress {
+	margin-top: 25px;
+}
+
+.contacts_white {
+	font-size: 10px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-family: 'Oswald';
+	margin-top: 6px;
+}
+
+.soc_seti {
+	margin-left: -28px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(20px);
+	width: 60px;
+	height: 154px;
+}
+
+.soc_seti img {
+	width: 24.98px;
+	height: 24.98px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.main_center_info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.contacts_tel {
+	font-family: 'Oswald';
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	margin-left: 293px;
+	margin-top: 22px;
+}
+
+.contacts_tel_zvonok {
+	font-size: 14px;
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(20px);
+}
+
+.contacts_tel p {
+	color: #43ffd2;
+}
+
+.catalog_and_contacts {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.contacts_tel_zvonok_padding {
+	display: flex;
+	flex-direction: row;
+	margin-top: 16px;
+	margin-left: -9px;
+}
+
+.contacts_tel_zvonok_padding img {
+	margin-right: 5px;
+}
+
+.cart {
+	margin-top: 48px;
+	margin-left: 110px;
+}
+
+.writing_lover_flower {
+	display: flex;
+	justify-content: right;
+	margin-right: 191px;
+	margin-top: 385px;
+}
+
+.catalog_content {
+	background: #282828;
+
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.catalog_flower {
+	margin-top: -7px;
+}
+
+.catalog_flower p {
+	padding-top: 102px;
+	font-family: 'Cormorant';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 100px;
+	margin-left: 167px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+}
+
+.catalog_text {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 260px;
+	font-family: 'Oswald';
+}
+
+.catalog_text_top {
+	width: 520px;
+	height: 78px;
+	text-align: justify;
+
+	line-height: 26px;
+	font-size: 18px;
+	letter-spacing: 0.04em;
+}
+
+.catalog_text_bottom {
+	margin-top: 30px;
+	font-size: 20px;
+	letter-spacing: 0.02em;
+}
+
+.ready_bouquets {
+	display: flex;
+	flex-direction: column;
+	margin-left: 50px;
+}
+
+.ready_bouquets ul li {
+	list-style-type: disc;
+}
+
+.catalog_text_description {
+	display: flex;
+	flex-direction: row;
+}
+
+.green_title_cart {
+	font-family: 'Oswald';
+	color: #43ffd2;
+	font-size: 30px;
+	font-weight: 700;
+	width: 250px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.ready_bouquets_border {
+	padding: 40px 240px 30px 50px;
+	background: rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(20px);
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.ready_bouquets_border ul li {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+.menu_ready_bouquets {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.link_show_catalog {
+	color: #d978ac;
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 0.15em;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	margin-top: 23px;
+	align-self: flex-end;
+	margin-right: -115px;
+}
+
+.ready_bouquets_flower {
+	margin-top: -60px;
+	width: 700px;
+	display: flex;
+	flex-direction: row;
+}
+
+.ready_bouquets_border_flower {
+	margin-top: -10px;
+	margin-left: 115px;
+}
+
+.ready_bouquets_border_flower ul li {
+	margin-top: 3.9px;
+}
+
+.ready_bouquets_border_additionally {
+	margin-top: 150px;
+	margin-left: -22px;
+}
+
+.link_show_catalog_flower {
+	margin-right: -210px;
+}
+
+.green_title_cart_additionally {
+	margin-top: -10px;
+	margin-left: 20px;
+}
+
+.menu_ready_bouquets_additionally {
+	margin-left: 30px;
+	line-height: 22px;
+}
+
+.link_show_catalog_additionally {
+	margin-right: -192px;
+	margin-top: 30px;
+}
+
+.img_catalog {
+	position: relative;
+	margin-top: -200px;
+	margin-left: 605px;
+}
+
+.img_catalog_bouquets {
+	margin-left: 300px;
+	margin-top: -100px;
+}
+
+.popular_bouquets {
+	margin-left: 165px;
+	margin-top: 520px;
+	font-family: 'Cormorant';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 100px;
+
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+}
+
+.popular_bouquets_bottom {
+	position: absolute;
+	margin-left: 382px;
+	margin-top: -20px;
+}
+
+.popular_bouquets_top {
+	margin-top: -122px;
+	position: absolute;
+}
+
+.popular_bouquets_text {
+	margin-top: 115px;
+	position: absolute;
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 30px;
+	margin-left: 382px;
+
+	letter-spacing: 0.1em;
+}
+
+.flowers_list {
+	margin-top: 225px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: absolute;
+	margin-left: -140px;
+	align-items: center;
+}
+
+.flowers_list img {
+	margin-left: 30px;
+}
+
+.flowers_price {
+	display: flex;
+	flex-direction: row;
+	margin-left: 165px;
+	height: 205px;
+}
+
+.flowers_price_block {
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+	width: 350px;
+	height: 450px;
+}
+
+.flowers_price_block_description {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.flowers_price_block_price {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 21px;
+	margin-top: 13px;
+
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+.flowers_price_block_button,
+.flowers_price_block_button:focus {
+	margin-top: 20px;
+	padding: 15px;
+	width: 220px;
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 18px;
+	cursor: pointer;
+	background-color: transparent;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	border: solid 0.5px white;
+	transition: all 0.2s ease-in-out 0.2s;
+}
+
+.flowers_price_block_button:hover,
+.flowers_price_block_button:active {
+	background: #43ffd2;
+	color: #282828;
+}
+
+.link_showAll_catalog {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+
+	letter-spacing: 0.15em;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	margin-left: 165px;
+	color: #d978ac;
+	margin-right: 5px;
+}
+
+.link_showAll_catalog_block {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
